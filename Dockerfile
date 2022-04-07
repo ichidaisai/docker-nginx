@@ -57,8 +57,7 @@ RUN set -ex \
   --with-http_secure_link_module \
   --with-http_slice_module \
   --with-http_stub_status_module \
-  --add-module=/tmp/nginx-${NGINX_VERSION}/headers-more-nginx-module
-  \
+  --add-module=/tmp/nginx-${NGINX_VERSION}/headers-more-nginx-module \
   --http-log-path=/var/log/nginx/access.log \
   --http-client-body-temp-path=/var/cache/nginx/client_temp \
   --http-proxy-temp-path=/var/cache/nginx/proxy_temp \
